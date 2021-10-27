@@ -1,0 +1,78 @@
+body {
+	background-color: white;
+	color: #506D84;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">; 
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+	color: #506D84;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+	color: #506D84;
+	font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #e3c2cf;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+	    font-weight: 600;
+	    text-transform: uppercase;
+	    color: midnightblue;
+}
+
+div {
+	background: #87AAAA;
+	margin: 30px;
+	box-shadow: 0px 10px 20px ;
+	border-radius: 10px;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.container {
+	width: 1500px;
+	margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container{
+		width: 400px;
+	}
+}
+
